@@ -56,32 +56,53 @@ A minha resolução ficou:
 algoritmo "soma,sub,mult e div"
 
 var
-numero_um:inteiro
-numero_dois:inteiro
-soma:inteiro
-sub:inteiro
-mult:inteiro
-divi:real
+    numero_um:inteiro
+    numero_dois:inteiro
+    soma:inteiro
+    sub:inteiro
+    mult:inteiro
+    divi:real
 
 
 inicio
 
-Escreval("Digite o primeiro número: ")
-leia(numero_um)
-Escreval("Digite o segundo número: ")
-leia(numero_dois)
+    Escreval("Digite o primeiro número: ")
+        leia(numero_um)
+    Escreval("Digite o segundo número: ")
+        leia(numero_dois)
 
-soma <- numero_um + numero_dois
-sub <- numero_um - numero_dois
-mult <- numero_um * numero_dois
-divi <- numero_um / numero_dois
+    soma <- numero_um + numero_dois
+    sub <- numero_um - numero_dois
+    mult <- numero_um * numero_dois
+    divi <- numero_um / numero_dois
 
-Escreval("A sua soma entre esses números é de:",numero_um,"+",numero_dois,"=",soma)
-Escreval("A sua subtração entre esses números é de:",numero_um,"-",numero_dois,"=",sub)
-Escreval("A sua multiplicação entre esses números é de:",numero_um,"*",numero_dois,"=",mult)
-Escreval("A sua divisão entre esses números é de:",numero_um,"/",numero_dois,"=",divi)
+    Escreval("A sua soma entre esses números é de:",numero_um,"+",numero_dois,"=",soma)
+    Escreval("A sua subtração entre esses números é de:",numero_um,"-",numero_dois,"=",sub)
+    Escreval("A sua multiplicação entre esses números é de:",numero_um,"*",numero_dois,"=",mult)
+    Escreval("A sua divisão entre esses números é de:",numero_um,"/",numero_dois,"=",divi)
 
 fimalgoritmo
 ```
 
-![](https://cdn.discordapp.com/attachments/757772173828947988/758494152123744266/Screenshot_1.png)
+
+***
+Na sequencia, foi pedido para construir um algorítimo que: Pergunte ao usuário o ano de nascimento e mostre na tela sua idade.
+
+```
+algoritmo "dizer_idade"
+
+var
+    ano:inteiro
+    idade:inteiro
+inicio
+    Escreval("Qual a sua data de nascimento? ")
+        leia(ano)
+    idade <- 2020 - ano
+    Escreval("Você tem, ",idade," anos de idade.")
+fimalgoritmo
+
+```
+
+
+***
+

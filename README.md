@@ -46,7 +46,36 @@ Para fazer o estilo zebrado, é usado uma lógica com resto para fazer esse efei
 
 ![](https://miro.medium.com/max/700/1*B8ss0wl-5kDyNonX5u-SFw.jpeg)
 
-## Começamos a fazer exercícios 
+### Começamos a fazer exercícios 
 
 Dentro do repositório vai ter os exercícios resolvidos. Não vou colocar os códigos aqui no README.md.
+
+***
+
+## Aula 03 (24/09)
+
+Começamos a ver estruturas de condição, os famosos IF e ELSE'S hahaha.
+Um código muito interessante, foi descobrir se um número é ímpar ou par.
+
+```
+algoritmo "par_impar"
+
+
+var
+numero:inteiro
+
+inicio
+
+Escreval ("Me diz um número, e eu te digo se é impár ou par: ")
+leia(numero)
+
+SE (numero mod 2 = 0) ENTAO
+
+     ESCREVAl("Seu número é par")
+SENAO
+     ESCREVAL("Seu número é ímpar")
+FIMSE
+
+fimalgoritmo
+```
 

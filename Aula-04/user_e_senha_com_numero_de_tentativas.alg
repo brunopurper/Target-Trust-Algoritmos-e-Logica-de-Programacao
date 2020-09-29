@@ -26,10 +26,10 @@ enquanto (senhainf <> senha) e (tentativas < 3) faca
    fimse
    limpatela
    se (senhainf = senha)entao
-      Escreval("Boas Vindas ",usuario)
+   Escreval("Boas Vindas ",usuario)
    fimse
    se (tentativas >= 3) entao
-      escreval("Você excedeu o número máximo de tentativas (3)")
+      escreval("Você excedeu o número máximo de tentativas")
       interrompa
 
 

@@ -116,5 +116,53 @@ Começamos a ver estruturas de repetição, mais conhecidas como WHILE / DO / FO
 Na ferramenta VisualG, aprendemos dois comandos, REPITA, EQUANTO e PARA. Temos diferenças entre elas:
 
 -- Repita > Executa e depois testa. (Conhecido como WHILE / DO)
--- Enquanto > Testa e depois executa. (Conhecido como )
--- Para > 
+-- Enquanto > Testa e depois executa. (Conhecido como REPEAT / UNTIL)
+-- Para > É uma das mais usadas na Lógica - Porém se limita apenas a contar repetições (Conhecido como FOR)
+
+No meio do exercícios, foi pedido para fazermos um algoritmo que ficasse perguntando o usuario e senha até que fosse igual ao programado, no caso user: admin e senha: 123, minha colega Ana, não satisfeita com o desafio hahaha, implementou uma funcionalidade extra, caso o usuário, erre 3 vezes a senha, ele é impedido de ficar tentando, e o algoritmo é encerrado. 
+
+Achei incrível a ideia, e quis fazer um igual também...
+Após várias tentativas, e após descobrir o "INTERROMPA", finalmente saiu o algoritmo!!
+
+```
+algoritmo "alg_tentativas"
+
+var
+usuario:caracter
+senha:caracter
+usuarioinf:caracter
+senhainf:caracter
+tentativas:inteiro
+inicio
+usuario <- "admin"
+senha <- "123"
+
+Enquanto (usuario <> usuarioinf) faca
+   escreval("Informe seu usuário: ")
+   leia(usuarioinf)
+Fimenquanto
+
+enquanto (senhainf <> senha) e (tentativas < 3) faca
+   escreval("Digite sua senha: ")
+   leia(senhainf)
+
+
+   se (senhainf <> senha) entao
+      tentativas <- tentativas + 1
+
+   fimse
+   limpatela
+   se (senhainf = senha)entao
+   Escreval("Boas Vindas ",usuario)
+   fimse
+   se (tentativas >= 3) entao
+      escreval("Você excedeu o número máximo de tentativas (3)")
+      interrompa
+
+
+   fimse
+
+fimenquanto
+```
+
+Fico extramamente feliz por esses passos que estamos dando, a turma é muito dedicada! Ansioso pelas próximas aulas!

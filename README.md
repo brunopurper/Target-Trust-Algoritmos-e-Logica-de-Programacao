@@ -108,3 +108,13 @@ fimescolha
 
 fimalgoritmo
 ```
+***
+## Aula 04 (29/09)
+
+Começamos a ver estruturas de repetição, mais conhecidas como WHILE / DO / FOR em outras linguagens de programação. Geralmente utilizados para automatizar trechos de código.
+
+Na ferramenta VisualG, aprendemos dois comandos, REPITA, EQUANTO e PARA. Temos diferenças entre elas:
+
+-- Repita > Executa e depois testa. (Conhecido como WHILE / DO)
+-- Enquanto > Testa e depois executa. (Conhecido como )
+-- Para > 

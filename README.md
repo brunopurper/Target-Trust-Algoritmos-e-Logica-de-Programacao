@@ -109,7 +109,7 @@ fimescolha
 fimalgoritmo
 ```
 ***
-## Aula 04 (29/09)
+## Aula 04 (28/09)
 
 Começamos a ver estruturas de repetição, mais conhecidas como WHILE / DO / FOR em outras linguagens de programação. Geralmente utilizados para automatizar trechos de código.
 
@@ -166,3 +166,7 @@ fimenquanto
 ```
 
 Fico extramamente feliz por esses passos que estamos dando, a turma é muito dedicada! Ansioso pelas próximas aulas!
+***
+## Aula 05 (30/09)
+
+Começamos os estudos de Arrays e Subalgoritmos (Vetores)

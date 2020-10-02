@@ -17,7 +17,10 @@ fimpara
 Escreval("Os numero pares da sua lista foram: ")
 
 para cont de 0 ate 9 faca
-Escreval("-",carro[cont])
+se (numero[cont]) mod 2 = 0 entao
+Escreval("-",numero[cont])
+fimse
+
 fimpara
 
 fimalgoritmo

@@ -198,3 +198,9 @@ fimalgoritmo
 ```
 
 Note que eu tenho uma variavel declarada, e nela 5 posições diferentes!
+
+***
+
+## Aula 06 (01/10)
+
+Começamos os estudos de funções.
